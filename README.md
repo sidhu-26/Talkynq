@@ -1,6 +1,6 @@
-Talkynq
+SyncSpace
 
-Welcome to Talkynq, a web application for connecting with friends through a real-time communication platform!
+Welcome to SyncSpace, a web application for connecting with friends through a real-time communication platform!
 Features
 
     🔒 User registration and login
@@ -11,18 +11,18 @@ Features
 
 Getting Started
 
-  To get started with Talkynq, follow these steps:
+  To get started with SyncSpace, follow these steps:
 
-  1. Clone the repository to your local machine by running git clone https://github.com/sidhu-26/Talkynq.git.
+  1. Clone the repository to your local machine by running git clone https://github.com/sidhu-26/SyncSpace.git
   2. Install pipenv by running pip install pipenv.
   3. Navigate to the root directory of the project and run pipenv install to create the virtual environment and install the required dependencies.
-  4. Create a .env file in the root directory of the project, and add the following environmental variables: SECRET_KEY, SENDGRID_API_KEY, appCertificate, and appID with their respective values. These variables are required for Talkynq to work properly.
+  4. Create a .env file in the root directory of the project, and add the following environmental variables: SECRET_KEY, SENDGRID_API_KEY, appCertificate, and appID with their respective values. These variables are required for SyncSpace to work properly.
   5. Run the migrations by running python manage.py migrate.
   6. Create a superuser by running python manage.py createsuperuser.
   7. Start the development server by running python manage.py runserver.
-  8. Access Talkynq on your web browser by visiting http://localhost:8000/.
+  8. Access SyncSpace on your web browser by visiting http://localhost:8000/.
   
-  That's it! You should now be able to use Talkynq's video chat and messaging features. If you encounter any issues while setting up Talkynq, please feel free to reach out.
+  That's it! You should now be able to use SyncSpace's video chat and messaging features. If you encounter any issues while setting up SyncSpace, please feel free to reach out.
 
 Built With
 
